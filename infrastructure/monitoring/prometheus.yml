@@ -63,3 +63,4 @@ scrape_configs:
 # alert eval
 # retention
 # global
+# scrape
