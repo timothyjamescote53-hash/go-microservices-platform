@@ -207,3 +207,4 @@ services:
 # grafana env
 # init
 # postgres
+# redis
