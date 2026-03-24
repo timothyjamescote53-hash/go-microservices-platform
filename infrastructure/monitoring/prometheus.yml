@@ -57,3 +57,4 @@ scrape_configs:
         target_label: __address__
 # scrape
 # scrape
+# global
