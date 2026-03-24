@@ -209,3 +209,4 @@ services:
 # postgres
 # redis
 # networks
+# observability
