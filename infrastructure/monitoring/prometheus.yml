@@ -71,3 +71,4 @@ scrape_configs:
 # honor labels
 # tls
 # global
+# scrape
