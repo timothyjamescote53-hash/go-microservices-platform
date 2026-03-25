@@ -432,3 +432,4 @@ func main() {
 // token verify
 // claims
 // parse fix
+// register
