@@ -454,3 +454,4 @@ func main() {
 // duplicate check
 // password min len
 // email validate
+// token expiry config
