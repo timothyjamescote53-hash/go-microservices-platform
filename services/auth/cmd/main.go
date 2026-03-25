@@ -425,3 +425,4 @@ func main() {
 // version endpoint
 // scaffold
 // server
+// store
