@@ -453,3 +453,4 @@ func main() {
 // signal notify
 // duplicate check
 // password min len
+// email validate
