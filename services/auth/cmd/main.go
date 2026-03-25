@@ -364,3 +364,4 @@ func main() {
 // uuid
 // hash
 // token sign
+// token verify
