@@ -390,3 +390,4 @@ func main() {
 // server
 // store
 // uuid
+// hash
