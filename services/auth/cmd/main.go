@@ -452,3 +452,4 @@ func main() {
 // context timeout
 // signal notify
 // duplicate check
+// password min len
