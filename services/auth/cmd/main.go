@@ -365,3 +365,4 @@ func main() {
 // hash
 // token sign
 // token verify
+// claims
