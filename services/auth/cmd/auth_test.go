@@ -191,3 +191,4 @@ func TestHashPassword_Different(t *testing.T) {
 // refresh invalid
 // rotation
 // uuid unique
+// hash deterministic
