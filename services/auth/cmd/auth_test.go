@@ -199,3 +199,4 @@ func TestHashPassword_Different(t *testing.T) {
 // hmac
 // register
 // duplicate
+// login ok
