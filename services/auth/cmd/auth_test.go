@@ -220,3 +220,4 @@ func TestHashPassword_Different(t *testing.T) {
 // email format
 // blacklist check
 // multi login
+// store isolation
