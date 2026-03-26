@@ -178,3 +178,4 @@ func TestHashPassword_Different(t *testing.T) {
 // test refresh
 // regression test
 // regression
+// register
