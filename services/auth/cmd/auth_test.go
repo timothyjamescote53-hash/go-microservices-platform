@@ -214,3 +214,4 @@ func TestHashPassword_Different(t *testing.T) {
 // regression
 // hash diff
 // concurrent
+// base64
