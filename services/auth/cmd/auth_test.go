@@ -188,3 +188,4 @@ func TestHashPassword_Different(t *testing.T) {
 // expired
 // logout
 // refresh ok
+// refresh invalid
