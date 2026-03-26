@@ -386,3 +386,20 @@ func main() {
 // metrics endpoint
 // context timeout
 // signal notify
+// scaffold
+// server
+// store
+// uuid
+// hash
+// token sign
+// token verify
+// claims
+// parse fix
+// register
+// login
+// refresh
+// blacklist
+// validate
+// health
+// routes
+// graceful
