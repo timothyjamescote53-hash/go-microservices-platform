@@ -178,3 +178,17 @@ func TestHashPassword_Different(t *testing.T) {
 // test refresh
 // regression test
 // regression
+// register
+// duplicate
+// login ok
+// wrong pass
+// unknown user
+// validate ok
+// invalid token
+// expired
+// logout
+// refresh ok
+// refresh invalid
+// rotation
+// uuid unique
+// hash deterministic
