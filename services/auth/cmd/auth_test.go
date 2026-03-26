@@ -190,3 +190,4 @@ func TestHashPassword_Different(t *testing.T) {
 // refresh ok
 // refresh invalid
 // rotation
+// uuid unique
