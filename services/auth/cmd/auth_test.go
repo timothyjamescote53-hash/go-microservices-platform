@@ -228,3 +228,4 @@ func TestHashPassword_Different(t *testing.T) {
 // wrong pass
 // unknown user
 // validate ok
+// invalid token
