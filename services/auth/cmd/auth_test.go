@@ -230,3 +230,4 @@ func TestHashPassword_Different(t *testing.T) {
 // validate ok
 // invalid token
 // expired
+// logout
