@@ -197,3 +197,4 @@ func TestHashPassword_Different(t *testing.T) {
 // concurrent
 // base64
 // hmac
+// register
