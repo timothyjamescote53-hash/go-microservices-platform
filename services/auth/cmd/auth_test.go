@@ -189,3 +189,4 @@ func TestHashPassword_Different(t *testing.T) {
 // logout
 // refresh ok
 // refresh invalid
+// rotation
