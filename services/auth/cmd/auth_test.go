@@ -200,3 +200,4 @@ func TestHashPassword_Different(t *testing.T) {
 // register
 // duplicate
 // login ok
+// wrong pass
