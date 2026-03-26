@@ -222,3 +222,4 @@ func TestHashPassword_Different(t *testing.T) {
 // multi login
 // store isolation
 // version test
+// register
