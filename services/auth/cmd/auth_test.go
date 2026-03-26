@@ -180,3 +180,4 @@ func TestHashPassword_Different(t *testing.T) {
 // regression
 // register
 // duplicate
+// login ok
