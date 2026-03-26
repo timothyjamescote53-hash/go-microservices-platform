@@ -240,3 +240,4 @@ func TestHashPassword_Different(t *testing.T) {
 // hash diff
 // concurrent
 // base64
+// hmac
