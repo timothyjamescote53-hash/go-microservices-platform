@@ -423,3 +423,20 @@ func main() {
 // store cleanup
 // cors header
 // version endpoint
+// scaffold
+// server
+// store
+// uuid
+// hash
+// token sign
+// token verify
+// claims
+// parse fix
+// register
+// login
+// refresh
+// blacklist
+// validate
+// health
+// routes
+// graceful
