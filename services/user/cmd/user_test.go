@@ -75,3 +75,4 @@ func TestDeleteUser_NotFound(t *testing.T) {
 // empty name
 // create
 // get found
+// get not found
