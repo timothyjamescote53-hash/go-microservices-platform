@@ -206,3 +206,14 @@ func main() {
 // update
 // delete
 // get by id
+// scaffold
+// domain
+// store
+// create
+// get by id
+// update
+// delete
+// get me
+// update me
+// get user
+// health
