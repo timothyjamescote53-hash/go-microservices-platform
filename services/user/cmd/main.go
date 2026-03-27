@@ -273,3 +273,4 @@ func main() {
 // context timeout
 // signal notify
 // avatar url
+// auto create
