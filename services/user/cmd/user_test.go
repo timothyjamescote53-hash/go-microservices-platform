@@ -57,3 +57,4 @@ func TestDeleteUser_NotFound(t *testing.T) {
 // errors
 // create
 // get found
+// get not found
