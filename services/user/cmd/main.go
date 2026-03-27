@@ -256,3 +256,4 @@ func main() {
 // domain
 // store
 // create
+// get by id
