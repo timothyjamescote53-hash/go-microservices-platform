@@ -65,3 +65,4 @@ func TestDeleteUser_NotFound(t *testing.T) {
 // delete not found
 // create
 // get found
+// get not found
