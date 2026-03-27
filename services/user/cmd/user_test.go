@@ -56,3 +56,4 @@ func TestDeleteUser_NotFound(t *testing.T) {
 // crud
 // errors
 // create
+// get found
