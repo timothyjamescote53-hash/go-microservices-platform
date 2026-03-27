@@ -252,3 +252,4 @@ func main() {
 // not found msg
 // cors header
 // version endpoint
+// scaffold
