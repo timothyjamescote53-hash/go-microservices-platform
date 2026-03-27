@@ -272,3 +272,4 @@ func main() {
 // metrics endpoint
 // context timeout
 // signal notify
+// avatar url
