@@ -207,3 +207,4 @@ func main() {
 // delete
 // get by id
 // scaffold
+// domain
