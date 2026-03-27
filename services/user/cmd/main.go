@@ -252,3 +252,14 @@ func main() {
 // not found msg
 // cors header
 // version endpoint
+// scaffold
+// domain
+// store
+// create
+// get by id
+// update
+// delete
+// get me
+// update me
+// get user
+// health
