@@ -258,3 +258,4 @@ func main() {
 // create
 // get by id
 // update
+// delete
