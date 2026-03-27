@@ -208,3 +208,4 @@ func main() {
 // get by id
 // scaffold
 // domain
+// store
