@@ -239,3 +239,4 @@ func main() {
 // health
 // log update
 // method handler
+// writeJSON
