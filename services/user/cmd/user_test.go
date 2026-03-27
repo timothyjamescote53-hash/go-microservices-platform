@@ -74,3 +74,4 @@ func TestDeleteUser_NotFound(t *testing.T) {
 // avatar
 // empty name
 // create
+// get found
