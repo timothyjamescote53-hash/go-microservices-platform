@@ -206,3 +206,4 @@ func main() {
 // update
 // delete
 // get by id
+// scaffold
