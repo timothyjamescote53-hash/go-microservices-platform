@@ -240,3 +240,4 @@ func main() {
 // signal notify
 // scaffold
 // domain
+// status
