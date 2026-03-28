@@ -105,3 +105,4 @@ func TestOrderStatus_Transitions(t *testing.T) {
 // user required
 // concurrent create
 // version test
+// create ok
