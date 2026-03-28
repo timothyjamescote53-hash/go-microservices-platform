@@ -267,3 +267,4 @@ func main() {
 // user id required
 // cors header
 // version endpoint
+// scaffold
