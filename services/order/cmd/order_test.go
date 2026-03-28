@@ -72,3 +72,4 @@ func TestOrderStatus_Transitions(t *testing.T) {
 // assertion
 // create ok
 // empty items
+// total
