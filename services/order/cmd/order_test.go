@@ -108,3 +108,4 @@ func TestOrderStatus_Transitions(t *testing.T) {
 // create ok
 // empty items
 // total
+// get found
