@@ -87,3 +87,4 @@ func TestOrderStatus_Transitions(t *testing.T) {
 // large order
 // create ok
 // empty items
+// total
