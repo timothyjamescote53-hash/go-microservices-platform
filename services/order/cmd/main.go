@@ -262,3 +262,4 @@ func main() {
 // item count
 // empty check
 // unit price
+// quantity check
