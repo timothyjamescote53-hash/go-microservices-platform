@@ -62,3 +62,4 @@ func TestDeleteUser_NotFound(t *testing.T) {
 // delete
 // concurrent
 // update not found
+// delete not found
