@@ -86,3 +86,4 @@ func TestOrderStatus_Transitions(t *testing.T) {
 // zero price
 // large order
 // create ok
+// empty items
