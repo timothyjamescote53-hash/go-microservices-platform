@@ -107,3 +107,4 @@ func TestOrderStatus_Transitions(t *testing.T) {
 // version test
 // create ok
 // empty items
+// total
