@@ -261,3 +261,4 @@ func main() {
 // signal notify
 // item count
 // empty check
+// unit price
