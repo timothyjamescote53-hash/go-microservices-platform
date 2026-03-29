@@ -136,3 +136,4 @@ func main() {
 // list
 // scaffold
 // domain
+// store
