@@ -238,3 +238,14 @@ func main() {
 // metrics endpoint
 // context timeout
 // signal notify
+// scaffold
+// domain
+// status
+// store
+// create
+// payment
+// status update
+// get order
+// list orders
+// create handler
+// health
