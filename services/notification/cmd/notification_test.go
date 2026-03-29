@@ -28,3 +28,4 @@ func TestGetByUser_Empty(t *testing.T) {
 // tests
 // send
 // list
+// empty
