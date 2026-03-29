@@ -217,3 +217,14 @@ func main() {
 // list orders
 // fix race
 // race fix
+// scaffold
+// domain
+// status
+// store
+// create
+// payment
+// status update
+// get order
+// list orders
+// create handler
+// health
