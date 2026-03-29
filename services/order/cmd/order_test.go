@@ -105,3 +105,12 @@ func TestOrderStatus_Transitions(t *testing.T) {
 // user required
 // concurrent create
 // version test
+// create ok
+// empty items
+// total
+// get found
+// not found
+// user orders
+// status
+// race fix
+// completed
