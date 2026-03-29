@@ -84,3 +84,4 @@ func TestOrderStatus_Transitions(t *testing.T) {
 // empty user
 // multi user
 // zero price
+// large order
