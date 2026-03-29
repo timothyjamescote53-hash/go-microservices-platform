@@ -148,3 +148,8 @@ func main() {
 // metrics endpoint
 // context timeout
 // signal notify
+// scaffold
+// domain
+// store
+// send
+// list
