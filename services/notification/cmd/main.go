@@ -168,3 +168,4 @@ func main() {
 // user required
 // cors header
 // version endpoint
+// scaffold
