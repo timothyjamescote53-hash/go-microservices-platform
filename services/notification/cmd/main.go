@@ -156,3 +156,4 @@ func main() {
 // log send
 // method handler
 // writeJSON
+// getenv
