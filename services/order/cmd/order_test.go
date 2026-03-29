@@ -120,3 +120,4 @@ func TestOrderStatus_Transitions(t *testing.T) {
 // multi user
 // zero price
 // large order
+// negative price
