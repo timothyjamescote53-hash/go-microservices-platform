@@ -186,3 +186,4 @@ func main() {
 // type validate
 // body required
 // user required
+// cors header
