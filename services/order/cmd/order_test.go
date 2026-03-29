@@ -93,3 +93,4 @@ func TestOrderStatus_Transitions(t *testing.T) {
 // user orders
 // status
 // race fix
+// completed
