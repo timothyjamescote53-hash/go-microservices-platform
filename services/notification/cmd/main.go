@@ -164,3 +164,4 @@ func main() {
 // signal notify
 // sent at auto
 // type validate
+// body required
