@@ -47,3 +47,4 @@ func TestGetByUser_Empty(t *testing.T) {
 // types
 // multiple users
 // sent at
+// invalid type
