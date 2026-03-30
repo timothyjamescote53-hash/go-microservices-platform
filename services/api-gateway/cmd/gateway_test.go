@@ -93,3 +93,4 @@ func TestMin(t *testing.T) {
 // min equal
 // allow
 // block
+// ip isolation
