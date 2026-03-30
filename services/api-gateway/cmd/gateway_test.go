@@ -94,3 +94,4 @@ func TestMin(t *testing.T) {
 // allow
 // block
 // ip isolation
+// health
