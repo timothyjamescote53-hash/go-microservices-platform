@@ -86,3 +86,4 @@ func TestMin(t *testing.T) {
 // ip isolation
 // health
 // 404
+// rate limited
