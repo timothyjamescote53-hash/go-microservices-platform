@@ -245,3 +245,4 @@ func main() {
 // x forward
 // request id
 // timeout
+// cors
