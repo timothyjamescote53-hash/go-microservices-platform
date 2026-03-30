@@ -103,3 +103,4 @@ func TestMin(t *testing.T) {
 // min equal
 // request id
 // metrics endpoint
+// allow
