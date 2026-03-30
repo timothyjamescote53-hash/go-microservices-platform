@@ -107,3 +107,4 @@ func TestMin(t *testing.T) {
 // block
 // ip isolation
 // health
+// 404
