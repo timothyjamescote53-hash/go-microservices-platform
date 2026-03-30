@@ -105,3 +105,4 @@ func TestMin(t *testing.T) {
 // metrics endpoint
 // allow
 // block
+// ip isolation
