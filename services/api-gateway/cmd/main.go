@@ -208,3 +208,4 @@ func main() {
 // routes
 // error handler
 // health
+// metrics
