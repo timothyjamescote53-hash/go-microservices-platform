@@ -45,3 +45,4 @@ func TestGetByUser_Empty(t *testing.T) {
 // list
 // empty
 // types
+// multiple users
