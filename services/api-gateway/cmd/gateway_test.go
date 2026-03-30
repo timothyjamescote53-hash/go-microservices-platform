@@ -91,3 +91,4 @@ func TestMin(t *testing.T) {
 // burst
 // refill
 // min equal
+// allow
