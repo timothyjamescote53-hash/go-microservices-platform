@@ -97,3 +97,4 @@ func TestMin(t *testing.T) {
 // health
 // 404
 // rate limited
+// min helper
