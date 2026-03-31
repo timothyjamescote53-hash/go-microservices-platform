@@ -88,3 +88,4 @@ groups:
 # slo alerts
 # slo
 # latency
+# error rate
