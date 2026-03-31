@@ -81,3 +81,10 @@ func TestMin(t *testing.T) {
 // rate
 // routing
 // ip
+// allow
+// block
+// ip isolation
+// health
+// 404
+// rate limited
+// min helper
