@@ -93,3 +93,7 @@ groups:
 # memory
 # availability
 # disk
+# latency
+# error rate
+# pod crash
+# memory
