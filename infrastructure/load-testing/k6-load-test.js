@@ -146,3 +146,4 @@ export function handleSummary(data) {
 // rps counter
 // batch size
 // options
+// scenarios
