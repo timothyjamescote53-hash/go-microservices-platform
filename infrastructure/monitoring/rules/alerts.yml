@@ -95,3 +95,4 @@ groups:
 # disk
 # latency
 # error rate
+# pod crash
