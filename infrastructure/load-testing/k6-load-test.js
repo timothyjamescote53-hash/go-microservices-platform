@@ -134,3 +134,4 @@ export function handleSummary(data) {
 // tenants
 // metrics
 // options
+// scenarios
