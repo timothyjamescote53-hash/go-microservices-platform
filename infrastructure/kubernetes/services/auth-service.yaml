@@ -144,3 +144,6 @@ spec:
 # liveness
 # startup
 # disruption
+# deploy
+# service
+# hpa

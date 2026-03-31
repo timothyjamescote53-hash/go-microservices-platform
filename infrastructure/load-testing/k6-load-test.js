@@ -145,3 +145,6 @@ export function handleSummary(data) {
 // error rate
 // rps counter
 // batch size
+// options
+// scenarios
+// summary

@@ -111,3 +111,5 @@ spec:
 # body size
 # keepalive
 # rewrite
+# ingress
+# annotations

@@ -101,3 +101,7 @@ groups:
 # disk
 # inhibit
 # for duration
+# latency
+# error rate
+# pod crash
+# memory

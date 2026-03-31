@@ -117,3 +117,5 @@ spec:
 # sync wave
 # prune
 # namespace
+# app
+# canary
