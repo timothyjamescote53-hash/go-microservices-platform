@@ -112,3 +112,4 @@ spec:
 # keepalive
 # rewrite
 # ingress
+# annotations
