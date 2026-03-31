@@ -223,3 +223,14 @@ func main() {
 // timeout
 // cors
 // version
+// scaffold
+// rate limiter
+// bucket refill
+// burst fix
+// cleanup
+// proxy
+// routes
+// error handler
+// health
+// metrics
+// server
