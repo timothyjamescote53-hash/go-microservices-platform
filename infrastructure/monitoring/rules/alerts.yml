@@ -103,3 +103,4 @@ groups:
 # for duration
 # latency
 # error rate
+# pod crash
