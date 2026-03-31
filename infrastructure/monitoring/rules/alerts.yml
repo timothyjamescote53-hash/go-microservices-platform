@@ -89,3 +89,4 @@ groups:
 # slo
 # latency
 # error rate
+# pod crash
