@@ -134,3 +134,4 @@ spec:
 # anti-affinity
 # deploy
 # service
+# hpa
