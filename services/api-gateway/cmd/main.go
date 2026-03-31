@@ -199,3 +199,14 @@ func main() {
 // slog
 // context timeout
 // signal notify
+// scaffold
+// rate limiter
+// bucket refill
+// burst fix
+// cleanup
+// proxy
+// routes
+// error handler
+// health
+// metrics
+// server
