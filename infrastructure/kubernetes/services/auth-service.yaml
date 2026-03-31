@@ -124,3 +124,6 @@ spec:
 # deploy
 # svc
 # hpa
+# deploy
+# service
+# hpa
