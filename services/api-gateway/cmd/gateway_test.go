@@ -114,3 +114,4 @@ func TestMin(t *testing.T) {
 // refill
 // min equal
 // request id
+// metrics endpoint
