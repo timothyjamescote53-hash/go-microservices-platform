@@ -112,3 +112,4 @@ func TestMin(t *testing.T) {
 // min helper
 // burst
 // refill
+// min equal
