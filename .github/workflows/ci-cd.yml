@@ -152,3 +152,4 @@ jobs:
 # go setup
 # mod tidy
 # test
+# coverage
