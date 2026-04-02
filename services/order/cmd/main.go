@@ -293,3 +293,4 @@ func main() {
 // unit price
 // quantity check
 // updated at
+// user id required
