@@ -46,3 +46,4 @@ We accept **eventual consistency** between services. The Order service stores `u
 Start with Postgres for all services (operational simplicity). Migrate individual services to specialized stores only when benchmarks justify it.
 <!-- updated -->
 <!-- v1 -->
+<!-- context -->
