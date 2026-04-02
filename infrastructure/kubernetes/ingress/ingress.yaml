@@ -99,3 +99,4 @@ spec:
 # ingress
 # annotations
 # tls
+# cors
