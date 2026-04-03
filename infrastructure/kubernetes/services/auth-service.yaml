@@ -140,3 +140,4 @@ spec:
 # rolling
 # pdb
 # anti-affinity
+# readiness
