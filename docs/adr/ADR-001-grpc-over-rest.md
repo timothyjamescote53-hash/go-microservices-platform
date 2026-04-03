@@ -49,3 +49,6 @@ Use **gRPC with Protocol Buffers** for all synchronous service-to-service commun
 - **Kafka for everything**: Async messaging is excellent for events but wrong for request/response patterns (e.g., auth validation must be synchronous)
 <!-- updated -->
 <!-- v1 -->
+<!-- context -->
+<!-- comparison -->
+<!-- decision -->

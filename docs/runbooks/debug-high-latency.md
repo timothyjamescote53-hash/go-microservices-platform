@@ -103,3 +103,6 @@ If not resolved in 20 min:
 After resolving: open a postmortem ticket. Use `docs/postmortems/TEMPLATE.md`.
 <!-- updated -->
 <!-- v1 -->
+<!-- assess -->
+<!-- causes -->
+<!-- escalation -->
