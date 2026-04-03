@@ -65,3 +65,4 @@ scrape_configs:
 # global
 # scrape
 # fixed
+# alert eval
