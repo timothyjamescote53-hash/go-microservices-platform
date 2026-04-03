@@ -153,3 +153,4 @@ spec:
 # pdb
 # anti-affinity
 # readiness
+# liveness
