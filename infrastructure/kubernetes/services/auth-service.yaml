@@ -142,3 +142,4 @@ spec:
 # anti-affinity
 # readiness
 # liveness
+# startup
