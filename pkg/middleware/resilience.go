@@ -196,3 +196,4 @@ func (c *ResilientClient) Do(req *http.Request) (*http.Response, error) {
 	})
 	return resp, err
 }
+// circuit breaker
