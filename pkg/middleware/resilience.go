@@ -217,3 +217,4 @@ func (c *ResilientClient) Do(req *http.Request) (*http.Response, error) {
 // max retries
 // base delay
 // backoff cap
+// circuit breaker
