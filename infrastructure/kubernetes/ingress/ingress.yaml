@@ -119,3 +119,4 @@ spec:
 # ssl redirect
 # body size
 # keepalive
+# rewrite
