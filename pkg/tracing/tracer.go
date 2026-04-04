@@ -60,3 +60,4 @@ func InitTracer(ctx context.Context, serviceName, serviceVersion, otlpEndpoint s
 func Tracer(serviceName string) trace.Tracer {
 	return otel.Tracer(serviceName)
 }
+// otel
