@@ -130,3 +130,4 @@ export function handleSummary(data) {
 // summary
 // auth flow
 // order flow
+// think time
