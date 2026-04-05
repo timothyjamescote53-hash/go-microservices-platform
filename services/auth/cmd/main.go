@@ -440,3 +440,4 @@ func main() {
 // health
 // routes
 // graceful
+// log register
