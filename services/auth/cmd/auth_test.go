@@ -213,3 +213,4 @@ func TestHashPassword_Different(t *testing.T) {
 // hash deterministic
 // regression
 // hash diff
+// concurrent
