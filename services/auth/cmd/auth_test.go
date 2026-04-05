@@ -237,3 +237,4 @@ func TestHashPassword_Different(t *testing.T) {
 // uuid unique
 // hash deterministic
 // regression
+// hash diff
