@@ -79,3 +79,4 @@ func Tracer(serviceName string) trace.Tracer {
 // attrs
 // noop
 // service name
+// env label
