@@ -70,3 +70,4 @@ func Tracer(serviceName string) trace.Tracer {
 // span
 // attrs
 // noop
+// service name
