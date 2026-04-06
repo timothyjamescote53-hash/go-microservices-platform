@@ -96,3 +96,4 @@ func TestOrderStatus_Transitions(t *testing.T) {
 // completed
 // sync fix
 // multi item
+// empty user
