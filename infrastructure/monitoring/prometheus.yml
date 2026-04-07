@@ -76,3 +76,4 @@ scrape_configs:
 # alert eval
 # retention
 # job labels
+# honor labels
