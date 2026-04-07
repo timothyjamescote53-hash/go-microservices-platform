@@ -75,3 +75,4 @@ scrape_configs:
 # fixed
 # alert eval
 # retention
+# job labels
