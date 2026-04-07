@@ -35,3 +35,4 @@ func TestGetByUser_Empty(t *testing.T) {
 // send
 // list
 // empty
+// types
