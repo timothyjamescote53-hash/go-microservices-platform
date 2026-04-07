@@ -77,3 +77,4 @@ scrape_configs:
 # retention
 # job labels
 # honor labels
+# tls
