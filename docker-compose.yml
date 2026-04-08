@@ -200,3 +200,4 @@ services:
 # networks
 # observability
 # healthcheck
+# restart
