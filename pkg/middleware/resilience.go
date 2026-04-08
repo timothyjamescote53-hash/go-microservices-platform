@@ -222,3 +222,4 @@ func (c *ResilientClient) Do(req *http.Request) (*http.Response, error) {
 // resilient client
 // failure
 // success
+// timeout
