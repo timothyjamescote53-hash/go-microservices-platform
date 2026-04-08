@@ -143,3 +143,4 @@ export function handleSummary(data) {
 // metrics
 // auth token
 // error rate
+// rps counter
