@@ -202,3 +202,4 @@ func (c *ResilientClient) Do(req *http.Request) (*http.Response, error) {
 // failure
 // success
 // timeout
+// jitter
