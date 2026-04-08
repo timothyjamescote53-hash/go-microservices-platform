@@ -154,3 +154,4 @@ export function handleSummary(data) {
 // tenants
 // metrics
 // auth token
+// error rate
