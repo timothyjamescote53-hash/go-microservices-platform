@@ -199,3 +199,4 @@ services:
 # redis
 # networks
 # observability
+# healthcheck
