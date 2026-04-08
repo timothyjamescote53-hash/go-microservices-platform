@@ -67,3 +67,4 @@ func Tracer(serviceName string) trace.Tracer {
 // noop
 // otel
 // propagation
+// span
