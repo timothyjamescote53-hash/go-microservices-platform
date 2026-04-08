@@ -144,3 +144,4 @@ export function handleSummary(data) {
 // auth token
 // error rate
 // rps counter
+// batch size
