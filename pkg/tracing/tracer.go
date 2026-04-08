@@ -75,3 +75,4 @@ func Tracer(serviceName string) trace.Tracer {
 // version
 // otel
 // propagation
+// span
