@@ -244,3 +244,4 @@ func TestHashPassword_Different(t *testing.T) {
 // password len
 // email format
 // blacklist check
+// multi login
