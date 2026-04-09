@@ -59,3 +59,4 @@ Start with Postgres for all services (operational simplicity). Migrate individua
 <!-- context -->
 <!-- tradeoffs -->
 <!-- migration -->
+<!-- examples -->
