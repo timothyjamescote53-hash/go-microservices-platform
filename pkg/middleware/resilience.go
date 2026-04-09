@@ -203,3 +203,4 @@ func (c *ResilientClient) Do(req *http.Request) (*http.Response, error) {
 // success
 // timeout
 // jitter
+// open state
