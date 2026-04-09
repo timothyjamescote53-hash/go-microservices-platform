@@ -72,3 +72,4 @@ func Tracer(serviceName string) trace.Tracer {
 // noop
 // service name
 // env label
+// version
