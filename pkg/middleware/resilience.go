@@ -228,3 +228,4 @@ func (c *ResilientClient) Do(req *http.Request) (*http.Response, error) {
 // half open
 // max retries
 // base delay
+// backoff cap
