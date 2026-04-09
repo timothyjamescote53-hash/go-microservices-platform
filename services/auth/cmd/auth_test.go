@@ -243,3 +243,4 @@ func TestHashPassword_Different(t *testing.T) {
 // hmac
 // password len
 // email format
+// blacklist check
