@@ -56,3 +56,4 @@ Use **gRPC with Protocol Buffers** for all synchronous service-to-service commun
 <!-- context -->
 <!-- comparison -->
 <!-- decision -->
+<!-- performance -->
