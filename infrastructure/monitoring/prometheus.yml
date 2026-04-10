@@ -74,3 +74,4 @@ scrape_configs:
 # scrape
 # fixed
 # alert eval
+# retention
