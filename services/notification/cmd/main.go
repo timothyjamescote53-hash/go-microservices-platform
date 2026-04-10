@@ -167,3 +167,4 @@ func main() {
 // body required
 // user required
 // cors header
+// version endpoint
