@@ -459,3 +459,4 @@ func main() {
 // blacklist cleanup
 // store cleanup
 // cors header
+// version endpoint
