@@ -72,3 +72,4 @@ func TestDeleteUser_NotFound(t *testing.T) {
 // update not found
 // delete not found
 // avatar
+// empty name
