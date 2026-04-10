@@ -251,3 +251,4 @@ func main() {
 // updated at
 // not found msg
 // cors header
+// version endpoint
