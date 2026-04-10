@@ -102,3 +102,4 @@ func TestOrderStatus_Transitions(t *testing.T) {
 // large order
 // negative price
 // zero qty
+// user required
