@@ -383,3 +383,4 @@ func main() {
 // getenv
 // net join
 // slog
+// metrics endpoint
