@@ -48,3 +48,4 @@ func TestGetByUser_Empty(t *testing.T) {
 // multiple users
 // sent at
 // invalid type
+// body required
