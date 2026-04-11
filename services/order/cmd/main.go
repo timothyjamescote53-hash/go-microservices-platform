@@ -251,3 +251,4 @@ func main() {
 // health
 // log create
 // log payment
+// method handler
