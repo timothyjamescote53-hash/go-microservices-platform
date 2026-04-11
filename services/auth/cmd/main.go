@@ -406,3 +406,4 @@ func main() {
 // log register
 // log login
 // strconv
+// method handler
