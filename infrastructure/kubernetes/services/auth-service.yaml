@@ -148,3 +148,4 @@ spec:
 # service
 # hpa
 # probes
+# resources
