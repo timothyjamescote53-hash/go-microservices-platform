@@ -208,3 +208,4 @@ func (c *ResilientClient) Do(req *http.Request) (*http.Response, error) {
 // circuit breaker
 // retry
 // resilient client
+// failure
