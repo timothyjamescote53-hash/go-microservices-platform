@@ -209,3 +209,4 @@ func (c *ResilientClient) Do(req *http.Request) (*http.Response, error) {
 // retry
 // resilient client
 // failure
+// success
