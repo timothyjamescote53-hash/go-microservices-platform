@@ -55,3 +55,4 @@ Start with Postgres for all services (operational simplicity). Migrate individua
 <!-- migration -->
 <!-- examples -->
 <!-- future -->
+<!-- cqrs -->
