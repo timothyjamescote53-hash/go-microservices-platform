@@ -131,3 +131,4 @@ spec:
 # resources
 # rolling
 # pdb
+# anti-affinity
