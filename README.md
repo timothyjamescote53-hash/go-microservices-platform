@@ -532,3 +532,4 @@ MIT
 <!-- tested -->
 <!-- load test -->
 <!-- badges -->
+<!-- architecture diagram -->
