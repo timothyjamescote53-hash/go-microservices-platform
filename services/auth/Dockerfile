@@ -16,3 +16,4 @@ ENTRYPOINT ["/service"]
 # builder
 # labels
 # builder
+# labels
