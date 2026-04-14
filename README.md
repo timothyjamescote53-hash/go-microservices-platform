@@ -496,3 +496,4 @@ MIT
 <!-- contributing -->
 <!-- tested -->
 <!-- load test -->
+<!-- badges -->
