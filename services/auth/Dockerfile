@@ -14,3 +14,4 @@ ENTRYPOINT ["/service"]
 # optimized
 # multistage
 # builder
+# labels
