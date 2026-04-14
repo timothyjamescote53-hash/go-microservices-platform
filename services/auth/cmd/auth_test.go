@@ -236,3 +236,4 @@ func TestHashPassword_Different(t *testing.T) {
 // rotation
 // uuid unique
 // hash deterministic
+// regression
