@@ -13,3 +13,4 @@ ENTRYPOINT ["/service"]
 # build
 # build
 # build
+# labels
