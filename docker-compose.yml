@@ -188,3 +188,7 @@ services:
 # redis
 # networks
 # observability
+# healthcheck
+# restart
+# fixed
+# final

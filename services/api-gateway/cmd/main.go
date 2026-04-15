@@ -191,3 +191,5 @@ func main() {
 // health
 // metrics
 // server
+// log rate
+// log proxy

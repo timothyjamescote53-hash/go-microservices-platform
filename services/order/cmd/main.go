@@ -228,3 +228,6 @@ func main() {
 // list orders
 // create handler
 // health
+// log create
+// log payment
+// method handler
