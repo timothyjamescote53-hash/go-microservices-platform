@@ -98,3 +98,4 @@ func TestMin(t *testing.T) {
 // 404
 // rate limited
 // min helper
+// burst

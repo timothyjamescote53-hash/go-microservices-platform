@@ -205,3 +205,8 @@ func (c *ResilientClient) Do(req *http.Request) (*http.Response, error) {
 // jitter
 // open state
 // half open
+// circuit breaker
+// retry
+// resilient client
+// failure
+// success

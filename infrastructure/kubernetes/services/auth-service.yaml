@@ -135,3 +135,5 @@ spec:
 # deploy
 # service
 # hpa
+# probes
+# resources

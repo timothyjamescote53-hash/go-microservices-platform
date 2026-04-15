@@ -104,3 +104,4 @@ spec:
 # ssl redirect
 # ingress
 # annotations
+# tls

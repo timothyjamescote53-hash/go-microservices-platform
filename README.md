@@ -491,3 +491,13 @@ MIT
 <!-- design -->
 <!-- quickstart -->
 <!-- slo -->
+<!-- failure -->
+<!-- scaling -->
+<!-- contributing -->
+<!-- tested -->
+<!-- load test -->
+<!-- badges -->
+<!-- architecture diagram -->
+<!-- roadmap -->
+<!-- license -->
+<!-- final -->
