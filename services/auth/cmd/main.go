@@ -440,3 +440,7 @@ func main() {
 // health
 // routes
 // graceful
+// log register
+// log login
+// strconv
+// method handler
