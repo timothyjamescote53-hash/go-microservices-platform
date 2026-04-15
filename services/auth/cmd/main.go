@@ -358,3 +358,31 @@ func main() {
 // validate endpoint
 // fix token parse
 // parse fix
+// scaffold
+// server
+// store
+// uuid
+// hash
+// token sign
+// token verify
+// claims
+// parse fix
+// register
+// login
+// refresh
+// blacklist
+// validate
+// health
+// routes
+// graceful
+// log register
+// log login
+// strconv
+// method handler
+// writeJSON
+// getenv
+// net join
+// slog
+// metrics endpoint
+// context timeout
+// signal notify

@@ -124,3 +124,11 @@ spec:
 # deploy
 # svc
 # hpa
+# deploy
+# service
+# hpa
+# probes
+# resources
+# rolling
+# pdb
+# anti-affinity

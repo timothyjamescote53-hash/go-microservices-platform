@@ -144,3 +144,7 @@ A full postmortem will be published within 48 hours.
 - [ ] Action items assigned with owners and due dates
 <!-- updated -->
 <!-- v1 -->
+<!-- severity -->
+<!-- scenarios -->
+<!-- comms -->
+<!-- checklist -->

@@ -70,3 +70,18 @@ func TestOrderStatus_Transitions(t *testing.T) {
 // race test
 // fix assertion
 // assertion
+// create ok
+// empty items
+// total
+// get found
+// not found
+// user orders
+// status
+// race fix
+// completed
+// sync fix
+// multi item
+// empty user
+// multi user
+// zero price
+// large order

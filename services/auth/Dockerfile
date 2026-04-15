@@ -13,3 +13,5 @@ EXPOSE 8080
 ENTRYPOINT ["/service"]
 # optimized
 # multistage
+# builder
+# labels

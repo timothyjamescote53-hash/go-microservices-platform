@@ -125,3 +125,11 @@ export function handleSummary(data) {
 }
 # load test
 // load
+// options
+// scenarios
+// summary
+// auth flow
+// order flow
+// think time
+// tenants
+// metrics

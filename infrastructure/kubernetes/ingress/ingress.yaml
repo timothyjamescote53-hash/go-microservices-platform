@@ -96,3 +96,9 @@ spec:
 # rate limit
 # ingress
 # annotations
+# ingress
+# annotations
+# tls
+# cors
+# timeout
+# ssl redirect

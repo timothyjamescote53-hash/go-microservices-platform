@@ -183,3 +183,14 @@ services:
 # base compose
 # observability
 # observability
+# init
+# postgres
+# redis
+# networks
+# observability
+# healthcheck
+# restart
+# fixed
+# final
+# jaeger env
+# grafana env

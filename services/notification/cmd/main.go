@@ -134,3 +134,17 @@ func main() {
 // scaffold
 // send
 // list
+// scaffold
+// domain
+// store
+// send
+// list
+// log send
+// method handler
+// writeJSON
+// getenv
+// net join
+// slog
+// metrics endpoint
+// context timeout
+// signal notify

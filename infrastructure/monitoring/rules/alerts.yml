@@ -87,3 +87,9 @@ groups:
           summary: "Redis is down — auth sessions unavailable"
 # slo alerts
 # slo
+# latency
+# error rate
+# pod crash
+# memory
+# availability
+# disk

@@ -12,3 +12,5 @@ COPY --from=builder /service /service
 ENTRYPOINT ["/service"]
 # build
 # build
+# build
+# labels
