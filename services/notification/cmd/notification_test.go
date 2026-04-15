@@ -41,3 +41,12 @@ func TestGetByUser_Empty(t *testing.T) {
 // invalid type
 // body required
 // concurrent
+// send
+// list
+// empty
+// types
+// multiple users
+// sent at
+// invalid type
+// body required
+// concurrent

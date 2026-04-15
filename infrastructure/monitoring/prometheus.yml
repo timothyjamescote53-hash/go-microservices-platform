@@ -70,3 +70,11 @@ scrape_configs:
 # job labels
 # honor labels
 # tls
+# global
+# scrape
+# fixed
+# alert eval
+# retention
+# job labels
+# honor labels
+# tls

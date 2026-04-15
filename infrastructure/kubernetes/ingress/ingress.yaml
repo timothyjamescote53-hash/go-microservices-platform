@@ -111,3 +111,12 @@ spec:
 # body size
 # keepalive
 # rewrite
+# ingress
+# annotations
+# tls
+# cors
+# timeout
+# ssl redirect
+# body size
+# keepalive
+# rewrite

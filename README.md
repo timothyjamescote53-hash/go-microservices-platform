@@ -518,3 +518,38 @@ MIT
 <!-- postmortems -->
 <!-- adr links -->
 <!-- version -->
+<!-- init -->
+<!-- overview -->
+<!-- arch -->
+<!-- services -->
+<!-- prereqs -->
+<!-- design -->
+<!-- quickstart -->
+<!-- slo -->
+<!-- failure -->
+<!-- scaling -->
+<!-- contributing -->
+<!-- tested -->
+<!-- load test -->
+<!-- badges -->
+<!-- architecture diagram -->
+<!-- roadmap -->
+<!-- license -->
+<!-- final -->
+<!-- api ref -->
+<!-- observability -->
+<!-- testing -->
+<!-- deployment -->
+<!-- security -->
+<!-- interview -->
+<!-- metrics -->
+<!-- env vars -->
+<!-- ports -->
+<!-- slo table -->
+<!-- known issues -->
+<!-- docker -->
+<!-- k8s -->
+<!-- final polish -->
+<!-- postmortems -->
+<!-- adr links -->
+<!-- version -->

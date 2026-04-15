@@ -103,3 +103,15 @@ func TestMin(t *testing.T) {
 // min equal
 // request id
 // metrics endpoint
+// allow
+// block
+// ip isolation
+// health
+// 404
+// rate limited
+// min helper
+// burst
+// refill
+// min equal
+// request id
+// metrics endpoint

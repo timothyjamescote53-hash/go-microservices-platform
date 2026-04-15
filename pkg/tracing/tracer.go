@@ -73,3 +73,11 @@ func Tracer(serviceName string) trace.Tracer {
 // service name
 // env label
 // version
+// otel
+// propagation
+// span
+// attrs
+// noop
+// service name
+// env label
+// version

@@ -145,3 +145,15 @@ export function handleSummary(data) {
 // error rate
 // rps counter
 // batch size
+// options
+// scenarios
+// summary
+// auth flow
+// order flow
+// think time
+// tenants
+// metrics
+// auth token
+// error rate
+// rps counter
+// batch size

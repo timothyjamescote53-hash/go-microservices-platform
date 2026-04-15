@@ -144,3 +144,15 @@ spec:
 # liveness
 # startup
 # disruption
+# deploy
+# service
+# hpa
+# probes
+# resources
+# rolling
+# pdb
+# anti-affinity
+# readiness
+# liveness
+# startup
+# disruption

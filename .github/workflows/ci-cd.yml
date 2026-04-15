@@ -175,3 +175,17 @@ jobs:
 # gitops
 # fix build
 # deploy step
+# triggers
+# matrix
+# go setup
+# mod tidy
+# test
+# coverage
+# security
+# buildx
+# login
+# metadata
+# build push
+# gitops
+# fix build
+# deploy step

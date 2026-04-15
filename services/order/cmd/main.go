@@ -267,3 +267,32 @@ func main() {
 // user id required
 // cors header
 // version endpoint
+// scaffold
+// domain
+// status
+// store
+// create
+// payment
+// status update
+// get order
+// list orders
+// create handler
+// health
+// log create
+// log payment
+// method handler
+// writeJSON
+// getenv
+// net join
+// slog
+// metrics endpoint
+// context timeout
+// signal notify
+// item count
+// empty check
+// unit price
+// quantity check
+// updated at
+// user id required
+// cors header
+// version endpoint

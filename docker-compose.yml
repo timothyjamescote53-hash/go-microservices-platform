@@ -205,3 +205,14 @@ services:
 # final
 # jaeger env
 # grafana env
+# init
+# postgres
+# redis
+# networks
+# observability
+# healthcheck
+# restart
+# fixed
+# final
+# jaeger env
+# grafana env

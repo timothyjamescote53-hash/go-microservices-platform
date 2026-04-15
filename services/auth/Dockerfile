@@ -18,3 +18,6 @@ ENTRYPOINT ["/service"]
 # builder
 # labels
 # nonroot
+# builder
+# labels
+# nonroot
