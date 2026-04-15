@@ -386,3 +386,40 @@ func main() {
 // metrics endpoint
 // context timeout
 // signal notify
+// scaffold
+// server
+// store
+// uuid
+// hash
+// token sign
+// token verify
+// claims
+// parse fix
+// register
+// login
+// refresh
+// blacklist
+// validate
+// health
+// routes
+// graceful
+// log register
+// log login
+// strconv
+// method handler
+// writeJSON
+// getenv
+// net join
+// slog
+// metrics endpoint
+// context timeout
+// signal notify
+// duplicate check
+// password min len
+// email validate
+// token expiry config
+// refresh expiry
+// blacklist cleanup
+// store cleanup
+// cors header
+// version endpoint

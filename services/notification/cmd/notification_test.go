@@ -32,3 +32,12 @@ func TestGetByUser_Empty(t *testing.T) {
 // types
 // multiple users
 // sent at
+// send
+// list
+// empty
+// types
+// multiple users
+// sent at
+// invalid type
+// body required
+// concurrent

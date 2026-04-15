@@ -132,3 +132,15 @@ spec:
 # rolling
 # pdb
 # anti-affinity
+# deploy
+# service
+# hpa
+# probes
+# resources
+# rolling
+# pdb
+# anti-affinity
+# readiness
+# liveness
+# startup
+# disruption

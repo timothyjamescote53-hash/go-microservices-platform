@@ -197,3 +197,28 @@ func TestHashPassword_Different(t *testing.T) {
 // concurrent
 // base64
 // hmac
+// register
+// duplicate
+// login ok
+// wrong pass
+// unknown user
+// validate ok
+// invalid token
+// expired
+// logout
+// refresh ok
+// refresh invalid
+// rotation
+// uuid unique
+// hash deterministic
+// regression
+// hash diff
+// concurrent
+// base64
+// hmac
+// password len
+// email format
+// blacklist check
+// multi login
+// store isolation
+// version test

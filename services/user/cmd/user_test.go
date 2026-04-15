@@ -63,3 +63,13 @@ func TestDeleteUser_NotFound(t *testing.T) {
 // concurrent
 // update not found
 // delete not found
+// create
+// get found
+// get not found
+// update
+// delete
+// concurrent
+// update not found
+// delete not found
+// avatar
+// empty name

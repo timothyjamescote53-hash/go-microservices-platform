@@ -91,3 +91,15 @@ func TestMin(t *testing.T) {
 // burst
 // refill
 // min equal
+// allow
+// block
+// ip isolation
+// health
+// 404
+// rate limited
+// min helper
+// burst
+// refill
+// min equal
+// request id
+// metrics endpoint

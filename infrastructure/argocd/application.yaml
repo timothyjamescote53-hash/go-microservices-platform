@@ -110,3 +110,10 @@ spec:
 # canary
 # retry
 # health
+# app
+# canary
+# retry
+# health
+# sync wave
+# prune
+# namespace

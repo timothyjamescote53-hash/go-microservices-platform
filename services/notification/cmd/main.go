@@ -148,3 +148,23 @@ func main() {
 // metrics endpoint
 // context timeout
 // signal notify
+// scaffold
+// domain
+// store
+// send
+// list
+// log send
+// method handler
+// writeJSON
+// getenv
+// net join
+// slog
+// metrics endpoint
+// context timeout
+// signal notify
+// sent at auto
+// type validate
+// body required
+// user required
+// cors header
+// version endpoint

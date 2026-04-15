@@ -226,3 +226,29 @@ func main() {
 // metrics endpoint
 // context timeout
 // signal notify
+// scaffold
+// domain
+// store
+// create
+// get by id
+// update
+// delete
+// get me
+// update me
+// get user
+// health
+// log update
+// method handler
+// writeJSON
+// getenv
+// net join
+// slog
+// metrics endpoint
+// context timeout
+// signal notify
+// avatar url
+// auto create
+// updated at
+// not found msg
+// cors header
+// version endpoint

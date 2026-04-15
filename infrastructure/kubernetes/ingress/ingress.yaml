@@ -102,3 +102,12 @@ spec:
 # cors
 # timeout
 # ssl redirect
+# ingress
+# annotations
+# tls
+# cors
+# timeout
+# ssl redirect
+# body size
+# keepalive
+# rewrite

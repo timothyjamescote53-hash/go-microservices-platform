@@ -85,3 +85,23 @@ func TestOrderStatus_Transitions(t *testing.T) {
 // multi user
 // zero price
 // large order
+// create ok
+// empty items
+// total
+// get found
+// not found
+// user orders
+// status
+// race fix
+// completed
+// sync fix
+// multi item
+// empty user
+// multi user
+// zero price
+// large order
+// negative price
+// zero qty
+// user required
+// concurrent create
+// version test

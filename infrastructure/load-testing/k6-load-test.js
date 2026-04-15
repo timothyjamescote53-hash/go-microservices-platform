@@ -133,3 +133,15 @@ export function handleSummary(data) {
 // think time
 // tenants
 // metrics
+// options
+// scenarios
+// summary
+// auth flow
+// order flow
+// think time
+// tenants
+// metrics
+// auth token
+// error rate
+// rps counter
+// batch size
