@@ -472,3 +472,4 @@ MIT
 <!-- badges -->
 <!-- architecture diagram -->
 <!-- roadmap -->
+<!-- license -->
