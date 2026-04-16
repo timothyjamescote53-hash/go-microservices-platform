@@ -1,0 +1,9 @@
+go 1.22
+
+use (
+	./services/auth
+	./services/user
+	./services/order
+	./services/notification
+	./services/api-gateway
+)

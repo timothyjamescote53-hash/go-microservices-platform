@@ -1,0 +1,185 @@
+version: "3.9"
+
+networks:
+  platform:
+    driver: bridge
+
+volumes:
+  auth-pg-data:
+  user-pg-data:
+  order-pg-data:
+  redis-data:
+
+services:
+  # ── Databases ─────────────────────────────────────────────
+  auth-postgres:
+    image: postgres:16-alpine
+    environment:
+      POSTGRES_DB: authdb
+      POSTGRES_USER: auth
+      POSTGRES_PASSWORD: secret
+    volumes:
+      - auth-pg-data:/var/lib/postgresql/data
+    networks: [platform]
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U auth -d authdb"]
+      interval: 5s
+      timeout: 5s
+      retries: 5
+
+  user-postgres:
+    image: postgres:16-alpine
+    environment:
+      POSTGRES_DB: userdb
+      POSTGRES_USER: user
+      POSTGRES_PASSWORD: secret
+    volumes:
+      - user-pg-data:/var/lib/postgresql/data
+    networks: [platform]
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U user -d userdb"]
+      interval: 5s
+      timeout: 5s
+      retries: 5
+
+  order-postgres:
+    image: postgres:16-alpine
+    environment:
+      POSTGRES_DB: orderdb
+      POSTGRES_USER: order
+      POSTGRES_PASSWORD: secret
+    volumes:
+      - order-pg-data:/var/lib/postgresql/data
+    networks: [platform]
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U order -d orderdb"]
+      interval: 5s
+      timeout: 5s
+      retries: 5
+
+  redis:
+    image: redis:7-alpine
+    volumes:
+      - redis-data:/data
+    networks: [platform]
+    healthcheck:
+      test: ["CMD", "redis-cli", "ping"]
+      interval: 5s
+      timeout: 3s
+      retries: 5
+
+  # ── Services ──────────────────────────────────────────────
+  auth-service:
+    build:
+      context: ./services/auth
+      dockerfile: Dockerfile
+    environment:
+      HTTP_PORT: "8080"
+      GRPC_PORT: "9090"
+      DATABASE_URL: postgres://auth:secret@auth-postgres:5432/authdb?sslmode=disable
+      REDIS_URL: redis://redis:6379
+      JWT_SECRET: super-secret-jwt-key-change-in-prod
+    ports:
+      - "8080:8080"
+      - "9090:9090"
+    depends_on:
+      auth-postgres: { condition: service_healthy }
+      redis:         { condition: service_healthy }
+    networks: [platform]
+    restart: unless-stopped
+
+  user-service:
+    build:
+      context: ./services/user
+      dockerfile: Dockerfile
+    environment:
+      HTTP_PORT: "8081"
+      GRPC_PORT: "9091"
+      DATABASE_URL: postgres://user:secret@user-postgres:5432/userdb?sslmode=disable
+      AUTH_SERVICE_URL: auth-service:9090
+    ports:
+      - "8081:8081"
+    depends_on:
+      user-postgres: { condition: service_healthy }
+    networks: [platform]
+    restart: unless-stopped
+
+  order-service:
+    build:
+      context: ./services/order
+      dockerfile: Dockerfile
+    environment:
+      HTTP_PORT: "8082"
+      GRPC_PORT: "9092"
+      DATABASE_URL: postgres://order:secret@order-postgres:5432/orderdb?sslmode=disable
+      AUTH_SERVICE_URL: auth-service:9090
+    ports:
+      - "8082:8082"
+    depends_on:
+      order-postgres: { condition: service_healthy }
+    networks: [platform]
+    restart: unless-stopped
+
+  notification-service:
+    build:
+      context: ./services/notification
+      dockerfile: Dockerfile
+    environment:
+      HTTP_PORT: "8083"
+      GRPC_PORT: "9093"
+    ports:
+      - "8083:8083"
+    networks: [platform]
+    restart: unless-stopped
+
+  api-gateway:
+    build:
+      context: ./services/api-gateway
+      dockerfile: Dockerfile
+    environment:
+      HTTP_PORT: "8000"
+      AUTH_SERVICE_GRPC: auth-service:9090
+      USER_SERVICE_URL: http://user-service:8081
+      ORDER_SERVICE_URL: http://order-service:8082
+      NOTIFICATION_SERVICE_URL: http://notification-service:8083
+    ports:
+      - "8000:8000"
+    depends_on:
+      - auth-service
+      - user-service
+      - order-service
+    networks: [platform]
+    restart: unless-stopped
+
+  # ── Observability ─────────────────────────────────────────
+  prometheus:
+    image: prom/prometheus:v2.51.0
+    volumes:
+      - ./infrastructure/monitoring/prometheus.yml:/etc/prometheus/prometheus.yml
+    ports:
+      - "9191:9090"
+    networks: [platform]
+
+  grafana:
+    image: grafana/grafana:10.4.0
+    environment:
+      GF_SECURITY_ADMIN_PASSWORD: admin
+    volumes:
+      - ./infrastructure/monitoring/grafana/dashboards:/var/lib/grafana/dashboards
+      - ./infrastructure/monitoring/grafana/provisioning:/etc/grafana/provisioning
+    ports:
+      - "3000:3000"
+    depends_on: [prometheus]
+    networks: [platform]
+
+  jaeger:
+    image: jaegertracing/all-in-one:1.56
+    ports:
+      - "16686:16686"
+      - "4317:4317"
+    environment:
+      COLLECTOR_OTLP_ENABLED: "true"
+    networks: [platform]
+# base compose
+# observability
+# observability

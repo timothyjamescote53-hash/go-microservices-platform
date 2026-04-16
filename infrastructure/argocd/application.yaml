@@ -1,0 +1,108 @@
+apiVersion: argoproj.io/v1alpha1
+kind: AppProject
+metadata:
+  name: platform
+  namespace: argocd
+spec:
+  description: Go Microservices Platform
+  sourceRepos:
+    - "https://github.com/yourorg/go-microservices-platform"
+  destinations:
+    - namespace: platform
+      server: https://kubernetes.default.svc
+  clusterResourceWhitelist:
+    - group: ""
+      kind: Namespace
+---
+apiVersion: argoproj.io/v1alpha1
+kind: Application
+metadata:
+  name: platform-services
+  namespace: argocd
+  annotations:
+    notifications.argoproj.io/subscribe.on-sync-succeeded.slack: platform-deploys
+    notifications.argoproj.io/subscribe.on-sync-failed.slack: platform-alerts
+spec:
+  project: platform
+  source:
+    repoURL: https://github.com/yourorg/go-microservices-platform
+    targetRevision: main
+    path: infrastructure/kubernetes
+  destination:
+    server: https://kubernetes.default.svc
+    namespace: platform
+  syncPolicy:
+    automated:
+      prune: true
+      selfHeal: true
+    syncOptions:
+      - CreateNamespace=true
+      - PrunePropagationPolicy=foreground
+    retry:
+      limit: 5
+      backoff:
+        duration: 5s
+        factor: 2
+        maxDuration: 3m
+---
+# Canary rollout using Argo Rollouts
+apiVersion: argoproj.io/v1alpha1
+kind: Rollout
+metadata:
+  name: auth-service-rollout
+  namespace: platform
+spec:
+  replicas: 4
+  selector:
+    matchLabels:
+      app: auth-service
+  template:
+    metadata:
+      labels:
+        app: auth-service
+    spec:
+      containers:
+        - name: auth-service
+          image: yourorg/auth-service:latest
+          ports:
+            - containerPort: 8080
+            - containerPort: 9090
+  strategy:
+    canary:
+      steps:
+        - setWeight: 10    # 10% traffic to canary
+        - pause: {duration: 2m}
+        - analysis:
+            templates:
+              - templateName: success-rate
+        - setWeight: 50    # 50% traffic
+        - pause: {duration: 5m}
+        - setWeight: 100   # Full rollout
+      canaryService: auth-service-canary
+      stableService: auth-service-stable
+      trafficRouting:
+        nginx:
+          stableIngress: platform-ingress
+---
+apiVersion: argoproj.io/v1alpha1
+kind: AnalysisTemplate
+metadata:
+  name: success-rate
+  namespace: platform
+spec:
+  metrics:
+    - name: success-rate
+      interval: 1m
+      successCondition: result[0] >= 0.99
+      failureLimit: 3
+      provider:
+        prometheus:
+          address: http://prometheus:9090
+          query: |
+            sum(rate(auth_http_requests_total{status!~"5.."}[5m]))
+            /
+            sum(rate(auth_http_requests_total[5m]))
+# argocd
+# canary
+# app
+# canary

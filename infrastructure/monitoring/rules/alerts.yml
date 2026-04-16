@@ -1,0 +1,89 @@
+groups:
+  - name: slo.rules
+    rules:
+      # SLO: 99.9% of requests under 200ms
+      - alert: HighLatency
+        expr: |
+          histogram_quantile(0.999,
+            rate(auth_http_request_duration_seconds_bucket[5m])
+          ) > 0.2
+        for: 2m
+        labels:
+          severity: warning
+          service: auth-service
+        annotations:
+          summary: "High p999 latency on auth-service"
+          description: "p999 latency is {{ $value | humanizeDuration }} (SLO: 200ms)"
+
+      # SLO: Error rate < 0.1%
+      - alert: HighErrorRate
+        expr: |
+          rate(auth_http_requests_total{status=~"5.."}[5m])
+          /
+          rate(auth_http_requests_total[5m]) > 0.001
+        for: 1m
+        labels:
+          severity: critical
+          service: auth-service
+        annotations:
+          summary: "Error rate SLO breach on auth-service"
+          description: "Error rate is {{ $value | humanizePercentage }} (SLO: 0.1%)"
+
+      # Throughput drop
+      - alert: LowThroughput
+        expr: rate(auth_http_requests_total[5m]) < 1
+        for: 5m
+        labels:
+          severity: warning
+        annotations:
+          summary: "Throughput dropped below 1 req/s"
+
+  - name: infrastructure.rules
+    rules:
+      - alert: PodCrashLooping
+        expr: rate(kube_pod_container_status_restarts_total[15m]) > 0
+        for: 5m
+        labels:
+          severity: critical
+        annotations:
+          summary: "Pod {{ $labels.pod }} is crash-looping"
+
+      - alert: HighMemoryUsage
+        expr: |
+          container_memory_usage_bytes{namespace="platform"}
+          / container_spec_memory_limit_bytes{namespace="platform"} > 0.85
+        for: 5m
+        labels:
+          severity: warning
+        annotations:
+          summary: "Container {{ $labels.container }} memory > 85%"
+
+      - alert: HighCPUUsage
+        expr: |
+          rate(container_cpu_usage_seconds_total{namespace="platform"}[5m])
+          / container_spec_cpu_quota{namespace="platform"} > 0.80
+        for: 5m
+        labels:
+          severity: warning
+        annotations:
+          summary: "Container {{ $labels.container }} CPU > 80%"
+
+  - name: database.rules
+    rules:
+      - alert: PostgresDown
+        expr: up{job=~".*postgres.*"} == 0
+        for: 1m
+        labels:
+          severity: critical
+        annotations:
+          summary: "Postgres instance is down"
+
+      - alert: RedisDown
+        expr: up{job="redis"} == 0
+        for: 1m
+        labels:
+          severity: critical
+        annotations:
+          summary: "Redis is down — auth sessions unavailable"
+# slo alerts
+# slo

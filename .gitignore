@@ -1,0 +1,45 @@
+# Binaries
+**/bin/
+**/dist/
+*.exe
+*.out
+
+# Go
+go.sum
+vendor/
+
+# Environment
+.env
+.env.*
+!.env.example
+
+# IDE
+.idea/
+.vscode/
+*.swp
+
+# Docker
+.docker/
+
+# Test coverage
+coverage.out
+coverage.html
+
+# Build artifacts
+results/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Protobuf generated files (commit these in real projects)
+# *.pb.go
+
+# Terraform state
+*.tfstate
+*.tfstate.backup
+.terraform/
+# updated
+# coverage
+# final
+# volumes
