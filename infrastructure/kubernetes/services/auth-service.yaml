@@ -29,7 +29,7 @@ spec:
       terminationGracePeriodSeconds: 30
       containers:
         - name: auth-service
-          image: yourorg/auth-service:latest
+          image: ghcr.io/timothydevQ/go-microservices-platform/auth-service:4ea7d8b
           imagePullPolicy: Always
           ports:
             - name: http
